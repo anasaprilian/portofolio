@@ -1,0 +1,41 @@
+.bigcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    flex-direction: column;
+  
+    .textskill {
+      margin-top: 20px;
+      font-size: 30px;
+      margin-bottom: 10px;
+      color: antiquewhite;
+    }
+  }
+  
+  .container {
+    background-color: #6B728E;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    max-width: 900px; 
+    padding: 15px;
+  
+    .skill {
+      border-radius: 5px;
+      
+      img {
+        width: 60px; 
+      }
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 100%; 
+    }
+  }
+  
