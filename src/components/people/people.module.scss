@@ -10,11 +10,11 @@
 }
 
 .imagehero {
-  width: 100%; /* Lebar gambar akan mengikuti lebar parent element */
-  max-width: 280px; /* Tetapkan lebar maksimum untuk gambar */
-  top: 17.2%; /* Atur jarak dari atas sesuai kebutuhan */
-  left: 50%; /* Letakkan gambar di tengah secara horizontal */
-  transform: translateX(-50%); /* Menyentralkan gambar secara horizontal */
+  width: 100%; 
+  max-width: 280px; 
+  top: 17.2%; 
+  left: 50%; 
+  transform: translateX(-50%); 
   position: absolute;
 }
 
@@ -53,4 +53,34 @@
   margin-right: 130px;
   width: 70%;
   padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; 
+    padding: 1rem; 
+  }
+
+  .textname, .texttitle, .profile {
+    width: 100%; 
+  }
+
+  .texttitle2 {
+    margin-right: 0; 
+  }
+}
+
+@media (max-width: 430px) {
+  .container {
+    flex-direction: column; 
+    padding: 1rem; 
+  }
+
+  .textname, .texttitle, .profile {
+    width: 100%; 
+  }
+
+  .texttitle2 {
+    margin-right: 0; 
+  }
 }

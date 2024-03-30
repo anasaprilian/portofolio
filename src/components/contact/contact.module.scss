@@ -49,3 +49,19 @@
     font-size: 18px; 
   }
 }
+
+@media (max-width: 430px) {
+  .containerContact {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .contact {
+    font-size: 24px; 
+  }
+
+  .email,
+  .phone {
+    font-size: 18px; 
+  }
+}
